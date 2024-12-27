@@ -2,7 +2,7 @@
 
 Clone the project 
 ```
-$ git clone https://coachai.cs.nycu.edu.tw:60446/coach-ai/frontend-web.git
+$ git clone https://github.com/davidwu78/coachaiimp.git
 $ cd frontend-web
 ```
 
