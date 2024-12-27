@@ -1,0 +1,55 @@
+{
+    "env": {
+        "browser": true,
+        "es2020": true
+    },
+    "extends": [
+        "react-app",
+        "plugin:react/recommended",
+        "eslint:recommended",
+        "airbnb"
+    ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 11,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react"
+    ],
+    "settings": {
+      "import/resolver": {
+        "node": {
+          "moduleDirectory": ["node_modules", "src/"]
+        }
+      }
+    },
+    "rules": {
+      // 0 "off" // 1 "warn" // 2 "error"
+      "react/jsx-filename-extension": ["warn", { "extensions": [".js", ".jsx"] }],
+      "comma-dangle": ["error", "never"],
+      "lines-between-class-members": ["off", "always"],
+      "object-shorthand": ["off", "always"],
+      "react/destructuring-assignment": ["off", "always"],
+      "react/prop-types": ["off", "always"],
+      "jsx-a11y/label-has-associated-control": ["off", "always"],
+      "jsx-a11y/media-has-caption": ["off", "always"],
+      "react/jsx-props-no-spreading": ["off", "always"],
+      "react/sort-comp": [1, {
+        "order": [
+          "static-methods",
+          "lifecycle",
+          "everything-else",
+          "rendering"
+        ],
+        "groups": {
+          "rendering": [
+            "/^render.+$/",
+            "render"
+          ]
+        }
+      }]
+    }
+}

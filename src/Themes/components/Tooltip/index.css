@@ -1,0 +1,19 @@
+.myTooltip .tooltip-inner {
+    background-color: rgba(195, 227, 227, 0.9);
+    color: #15545e;
+    max-width: 500px;
+    border-radius: 7px;
+    height: fit-content;
+}
+
+.myTooltipRight .arrow::before {
+    border-right-color: rgba(195, 227, 227, 0.9);
+}
+
+.myTooltipBottom .arrow::before {
+    border-bottom-color: rgba(195, 227, 227, 0.9);
+}
+
+.myTooltipTop .arrow::before {
+    border-top-color: rgba(195, 227, 227, 0.9);
+}

@@ -1,0 +1,81 @@
+{
+  "name": "coach-ai",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.4.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.5.2",
+    "chart.js": "^2.9.3",
+    "d3": "^6.2.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-react": "^7.20.5",
+    "i18next": "^21.0.1",
+    "i18next-browser-languagedetector": "^6.1.2",
+    "jquery": "^3.5.1",
+    "lodash": "^4.17.20",
+    "moment": "^2.27.0",
+    "node-sass": "^4.14.1",
+    "nouislider": "^14.6.2",
+    "nouislider-react": "^3.3.9",
+    "plotly.js": "^1.57.1",
+    "popper.js": "^1.16.1",
+    "react": "^16.13.1",
+    "react-beautiful-dnd": "^13.1.0",
+    "react-bootstrap": "^1.3.0",
+    "react-chartjs-2": "^2.10.0",
+    "react-dom": "^16.13.1",
+    "react-facebook-login": "^4.1.1",
+    "react-google-login": "^5.2.2",
+    "react-i18next": "^11.12.0",
+    "react-plotly.js": "^2.5.0",
+    "react-redux": "^7.2.1",
+    "react-router-dom": "^5.2.0",
+    "react-router-hash-link": "^2.4.3",
+    "react-scripts": "3.4.1",
+    "redux": "^4.0.5",
+    "source-map-explorer": "^2.4.2",
+    "styled-components": "^5.2.1",
+    "stylelint": "^13.8.0",
+    "stylelint-config-recommended": "^3.0.0",
+    "stylelint-config-styled-components": "^0.1.1",
+    "stylelint-processor-styled-components": "^1.10.0"
+  },
+  "scripts": {
+    "analyze": "source-map-explorer 'build/static/js/*.js' --html result.html",
+    "lint": "eslint --ext .js src/",
+    "lint:css": "stylelint './src/**/*.js'",
+    "start": "HTTPS=true ./node_modules/.bin/react-scripts start",
+    "build": "./node_modules/.bin/react-scripts build",
+    "test": "./node_modules/.bin/react-scripts test",
+    "eject": "./node_modules/.bin/react-scripts eject"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn lint"
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.11"
+  },
+  "resolutions": {
+    "styled-components": "^5"
+  }
+}

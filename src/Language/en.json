@@ -1,0 +1,224 @@
+{
+  "en": "English",
+  "zh": "Chinese",
+  "matchList": "Match",
+  "playersComparison": "Compare",
+  "login": "Login",
+  "logout": "Logout",
+  "memberLogin": "Member Login",
+  "loginWithGoogle": "Login With Google",
+  "loginWithFacebook": "Login With Facebook",
+  "loginWithLine": "Login With LINE",
+  "loginConcent": "By logging in, you agree to the terms of membership and privacy policy.",
+  "loginSeeMore": "Login to see more",
+  "seeMore": "More matches",
+  "loading": "Loading ...",
+  "set1": "Set 1",
+  "set2": "Set 2",
+  "set3": "Set 3",
+  "all": "All",
+  "watchVideo": "Watch video",
+  "autoPlay": "Auto play",
+  "replay": "Replay",
+  "ballTypeDes": {
+    "title": "BallType Description",
+    "serve": "Serve",
+    "return": "Return",
+    "front": "front",
+    "mid": "mid",
+    "back": "back",
+    "frontToFront": "front - front",
+    "frontToMid": "front - mid",
+    "frontToBack": "front - back",
+    "midToFront": "mid - front",
+    "midToMid": "mid - mid",
+    "midToBack": "mid - back",
+    "backToFront": "back - front",
+    "backToMid": "back - mid",
+    "backToback": "back - back"
+  },
+  "home": {
+    "title": "Badminton Tactical Analysis",
+    "titleText": "CoachAI is a platform for analyzing badminton competitions. We provide systematic chart analysis, assist players and coaches to see players' advantages and disadvantages at a glance, and help accurately collect competitions data.",
+    "secondTitle": "Visualized Platform",
+    "secondTitleText": "Join the action and feel the thrill.\nFull match replay and see highlights!\nCloud database offers comprehensive security\nAnalysis based on figures and data.\nDon not miss any match, start now!",
+    "thirdTitle": "Hit Position Analysis",
+    "thirdTitleText": "Recall the match details.\nAnalyze hitting direction and position of both players.\nFind the best strategy to defend opponents."
+  },
+  "footer": {
+    "address": "Address : No. 1001, Dasyue Rd., East Dist., Hsinchu City 300093",
+    "phone": "Phone : 03-456789",
+    "member": "Terms of membership",
+    "private": "Terms of privacy policy",
+    "center": "Member center",
+    "players": "Player list",
+    "service": "Service"
+  },
+  "visualization": {
+    "recentMatches": "Recent Matches",
+    "match": "Match",
+    "player": "Player",
+    "sortByTime": "Sort By Time",
+    "sortByMatch": "Sort By Match",
+    "sortByPlayer": "Sort By Player",
+    "seeCharts": "View",
+    "search": "Enter search ",
+    "noResult": "No search result"
+  },
+  "single": {
+    "backToMatchList": "Back",
+    "analysis": "Match Analysis",
+    "overview": "Overview",
+    "position": "Position",
+    "scoreAnalysis": "Score",
+    "ballTypeAnalysis": "Ball Type",
+    "watchVideo": "Watch video",
+    "speed": {
+      "scoreTrend": "Score Trend",
+      "analyzeRallys": "Analyze Rallys",
+      "runningSpeed": "Running Speed Interval",
+      "hittingHeight": "Hitting Height",
+      "backcourtTimes": "Backcourt Times",
+      "totalDistance": "Total Running Distance",
+      "positionCourt": "Defence and Receive Position",
+      "hittingDistance": "Avg. Running Distance Of Hits",
+      "defenseDistance": "Avg. Running Distance Of Defences",
+      "backcourtHittingTimes": "Avg. Backcourt Hitting Times",
+      "speedDirection": "Speed by Directions",
+      "fastestSpeed": "Fastest Speed",
+      "averageSpeed": "Average Speed",
+      "direction": {
+        "front": "front",
+        "upR": "upper right",
+        "R": "right",
+        "lowR": "lower right",
+        "back": "back",
+        "lowL": "lower left",
+        "L": "left",
+        "upL": "upper left"
+      }
+    },
+    "graph": {
+      "loseType": {
+        "title": "Lose Point Type",
+        "out": "Out",
+        "opLand": "Opponent' s ball landed",
+        "misjudge": "Misjudged",
+        "touchNet": "Touched the net",
+        "notOverNet": "Didn' t pass over the net"
+      },
+      "errorType": {
+        "title": "Error Type",
+        "forced": "Forced error",
+        "unforced": "Unforced error"
+      },
+      "ballType": {
+        "title": "Ball Type",
+        "scoreTitle": "Score Ball Type",
+        "netShot": "Net Shot",
+        "dropShot": "Drop shot",
+        "drive": "Drive",
+        "shortServe": "Short serve",
+        "longServe": "Long serve",
+        "netPop": "Net Pop",
+        "netPush": "Push and Rush shot",
+        "smash": "Smash",
+        "clear": "Clear",
+        "smashDefense": "Smash Defense"
+      },
+      "loseDistribution": "Lose Point Distribution",
+      "scoreTrend": {
+        "title": "Score Trend",
+        "score": "scored",
+        "rally": "Rally",
+        "shotNumber": "Number of shots"
+      }
+    },
+    "ballType": {
+      "title": "Position of Return Smash, Backstop, and Net Lift",
+      "returnType": "Return ball type",
+      "smash": {
+        "title": "Position of return smash",
+        "name": "Smash",
+        "return": "Return smash",
+        "forehand": "Times of forehand return smash",
+        "backhand": "Times of backhand return smash",
+        "total": "Total times of return smash "
+      },
+      "lift": {
+        "title": "Position of return net lift",
+        "name": "Net lift",
+        "return": "Return net lift",
+        "forehand": "Times of forehand return net lift",
+        "backhand": "Times of backhand return net lift",
+        "total": "Total times of return net lift"
+      },
+      "backstop": {
+        "title": "Position of return backstop",
+        "name": "Backstop",
+        "return": "Return backstop",
+        "forehand": "Times of forehand return backstop",
+        "backhand": "Times of backhand return backstop",
+        "total": "Total times of return backstop"
+      }
+    }
+  },
+  "pattern": {
+    "first": "First player",
+    "second": "Second player",
+    "compare": "Compare",
+    "explaination": "Choose two players to see charts of their matches",
+    "noData": "No data",
+    "videoLoading": "Video Loading...",
+    "tableLoading": "Table Loading...",
+    "scoreReason": {
+      "title": "Score and Lose points reason",
+      "opTouchNet": "opponent' s ball touched the net",
+      "opOut": "opponent' s ball out",
+      "land": "landed",
+      "opNotPassNet": "opponent' s ball didn' t pass the net",
+      "opMisjudge": "opponent misjudged",
+      "opFoul": "opponent' s foul hit",
+      "misjudge": "misjudged"
+    },
+    "returnType": {
+      "title": "Return ball type",
+      "choose": "choose ball type",
+      "backstop": "Backstop",
+      "netPop": "Net Pop",
+      "clear": "Clear",
+      "smash": "Smash",
+      "passiveShot": "Passive shot",
+      "overheadWristShot": "Overhead wrist shot",
+      "lift": "Net Lift",
+      "slowDropShot": "Slow Drop Shot",
+      "netPush": "Net Push",
+      "crosscourtNetShot": "Cross-court Net Shot",
+      "drive": "Drive",
+      "rushShot": "Rush shot",
+      "backcourtDrive": "Backcourt Drive",
+      "defensiveDrive": "Defensive drive",
+      "defensivePop": "Defensive pop",
+      "shortFlat": "Short flat"
+    },
+    "scoreProbability": "Score rate of ball types",
+    "lastVideo": {
+      "title": "Video of last shots",
+      "lastN": "Video to last N shots"
+    },
+    "playerPattern": {
+      "title": "Statistics and replay of player's pattern",
+      "seqLen": "Sequence length",
+      "drop": "Drop common",
+      "ignore": "Ignore frequency less than"
+    },
+    "oftenBall": {
+      "title": "Pattern and ball type commonly-used",
+      "area": "Select hit area",
+      "player": "Select player"
+    },
+    "unforcedError": {
+      "title": "Pattern and ball type of unforced error"
+    }
+  }
+}

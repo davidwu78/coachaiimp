@@ -1,0 +1,223 @@
+{
+  "en": "英",
+  "zh": "中",
+  "matchList": "賽事列表",
+  "playersComparison": "選手比較",
+  "login": "登入",
+  "logout": "登出",
+  "memberLogin": "會員登入",
+  "loginWithGoogle": "使用Google登入",
+  "loginWithFacebook": "使用Facebook登入",
+  "loginWithLine": "使用LINE登入",
+  "loginConcent": "點擊登入即表示您同意本網站之會員條款與隱私權條款",
+  "loginSeeMore": "登入看更多",
+  "seeMore": "看更多賽事",
+  "loading": "載入中 ...",
+  "set1": "第 1 局",
+  "set2": "第 2 局",
+  "set3": "第 3 局",
+  "all": "總覽",
+  "watchVideo": "觀看影片",
+  "autoPlay": "自動播放",
+  "replay": "賽事回放",
+  "ballTypeDes": {
+    "title": "球種介紹",
+    "serve": "發球",
+    "return": "回球",
+    "front": "前場",
+    "mid": "中場",
+    "back": "後場",
+    "frontToFront": "前場 - 前場",
+    "frontToMid": "前場 - 中場",
+    "frontToBack": "前場 - 後場",
+    "midToFront": "中場 - 前場",
+    "midToMid": "中場 - 中場",
+    "midToBack": "中場 - 後場",
+    "backToFront": "後場 - 前場",
+    "backToMid": "後場 - 中場",
+    "backToback": "後場 - 後場"
+  },
+  "home": {
+    "title": "選手技戰術分析",
+    "titleText": "CoachAI 提供羽球賽事分析平台，針對不同賽事組合提供系統性的圖表分析，讓選手與教練一目了然雙方擅長與弱勢的面向，協助精準羽球選手情蒐結果。",
+    "secondTitle": "技戰術視覺化分析平台",
+    "secondTitleText": "身歷其境，不再只是口號\n選手在球場上的精彩表現，這裡完整重現！\n結合雲端資料庫，將賽事資訊完整蒐集\n數字會說話，為您分析戰情\n帶您關注最重要的那一刻，不再是夢想。\n不想錯過每一場精彩的對決，即刻開始，您該擁有。",
+    "thirdTitle": "選手擊球熱點分析",
+    "thirdTitleText": "提供選手經典賽事對戰時的擊球熱點分布\n幫助選手回顧比賽過程細節\n查看雙方擊球方向及位置\n了解如何能最有效的防禦對手攻勢"
+  },
+  "footer": {
+    "address": "地址 : 30010 新竹市大學路1001號",
+    "phone": "服務專線 : 03-456789",
+    "member": "會員條款",
+    "private": "隱私權條款",
+    "players": "選手列表",
+    "center": "會員中心",
+    "service": "服務方案"
+  },
+  "visualization": {
+    "recentMatches": "近期賽事",
+    "match": "賽事",
+    "player": "選手",
+    "sortByTime": "按時間排序",
+    "sortByMatch": "按賽事名稱排序",
+    "sortByPlayer": "按選手名稱排序",
+    "seeCharts": "查看圖表",
+    "search": "請輸入欲搜索的",
+    "noResult": "查無搜索結果"
+  },
+  "single": {
+    "backToMatchList": "回賽事列表",
+    "analysis": "賽事分析",
+    "overview": "總覽",
+    "position": "站位分析",
+    "scoreAnalysis": "得失分分析",
+    "ballTypeAnalysis": "球種分析",
+    "speed": {
+      "scoreTrend": "比分趨勢圖",
+      "analyzeRallys": "分析區間",
+      "runningSpeed": "跑速區間次數",
+      "hittingHeight": "擊球高度次數",
+      "backcourtTimes": "踩後場次數",
+      "totalDistance": "跑動總距離",
+      "positionCourt": "防禦、接球跑位",
+      "hittingDistance": "平均擊球跑動距離",
+      "defenseDistance": "平均回位跑動距離",
+      "backcourtHittingTimes": "平均後場擊球次數",
+      "speedDirection": "各方向跑動速度",
+      "fastestSpeed": "最快速度",
+      "averageSpeed": "平均速度",
+      "direction": {
+        "front": "前",
+        "upR": "右上",
+        "R": "右",
+        "lowR": "右下",
+        "back": "後",
+        "lowL": "左下",
+        "L": "左",
+        "upL": "左上"
+      }
+    },
+    "graph": {
+      "loseType": {
+        "title": "失分類別",
+        "out": "出界",
+        "opLand": "對手落地致勝",
+        "misjudge": "落點判斷失誤",
+        "touchNet": "掛網",
+        "notOverNet": "未過網"
+      },
+      "errorType": {
+        "title": "失誤類別",
+        "forced": "受迫性失誤",
+        "unforced": "非受迫性失誤"
+      },
+      "ballType": {
+        "title": "球種",
+        "scoreTitle": "得分球種",
+        "netShot": "網前球",
+        "dropShot": "切球",
+        "drive": "平球",
+        "shortServe": "發短球",
+        "longServe": "發長球",
+        "netPop": "挑球",
+        "netPush": "推撲球",
+        "smash": "殺球",
+        "clear": "長球",
+        "smashDefense": "接殺防守"
+      },
+      "loseDistribution": "失分位置分布",
+      "scoreTrend": {
+        "title": "選手得分分布趨勢",
+        "score": "得分",
+        "rally": "回合",
+        "shotNumber": "拍數"
+      }
+    },
+    "ballType": {
+      "title": "接殺球、擋小球、放小球站位圖",
+      "returnType": "接球球種",
+      "smash": {
+        "title": "接殺球站位圖",
+        "name": "接殺球",
+        "return": "接殺球",
+        "forehand": "正手接殺球次數",
+        "backhand": "反手接殺球次數",
+        "total": "接殺球總次數"
+      },
+      "lift": {
+        "title": "接放小球站位圖",
+        "name": "接放小球",
+        "return": "接放小球",
+        "forehand": "正手接放小球次數",
+        "backhand": "反手接放小球次數",
+        "total": "接放小球總次數"
+      },
+      "backstop": {
+        "title": "接擋小球站位圖",
+        "name": "接擋小球",
+        "return": "接擋小球",
+        "forehand": "正手接擋小球次數",
+        "backhand": "反手接擋小球次數",
+        "total": "接擋小球總次數"
+      }
+    }
+  },
+  "pattern": {
+    "first": "第一位選手",
+    "second": "第二位選手",
+    "compare": "比較賽事",
+    "explaination": "可選擇觀看兩位選手之賽事相關圖表",
+    "noData": "無",
+    "videoLoading": "影片載入中...",
+    "tableLoading": "表格載入中...",
+    "scoreReason": {
+      "title": "得失分原因",
+      "opTouchNet": "對手掛網",
+      "opOut": "對手出界",
+      "land": "落地致勝",
+      "opNotPassNet": "對手未過網",
+      "opMisjudge": "對手落點判斷失誤",
+      "opFoul": "對手犯規",
+      "misjudge": "對手落點判斷失誤"
+    },
+    "returnType": {
+      "title": "回球球種",
+      "choose": "選擇球種",
+      "backstop": "擋小球",
+      "netPop": "挑球",
+      "clear": "長球",
+      "smash": "殺球",
+      "passiveShot": "過度切球",
+      "overheadWristShot": "點扣",
+      "lift": "放小球",
+      "slowDropShot": "切球",
+      "netPush": "推球",
+      "crosscourtNetShot": "勾球",
+      "drive": "平球",
+      "rushShot": "撲球",
+      "backcourtDrive": "後場抽平球",
+      "defensiveDrive": "防守回抽",
+      "defensivePop": "防守回挑",
+      "shortFlat": "小平球"
+    },
+    "scoreProbability": "球種得分機率",
+    "lastVideo": {
+      "title": "最末拍回放",
+      "lastN": "影片顯示倒數 N 拍"
+    },
+    "playerPattern": {
+      "title": "球路組合統計和回放",
+      "seqLen": "選擇球路的長度",
+      "drop": "移除共同球路",
+      "ignore": "移除 frequency 小於 N 的球路"
+    },
+    "oftenBall": {
+      "title": "常用球路和球種",
+      "area": "選擇擊球區域",
+      "player": "選擇選手"
+    },
+    "unforcedError": {
+      "title": "非受迫性失誤球路和球種"
+    }
+  }
+}
