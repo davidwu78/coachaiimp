@@ -54,8 +54,11 @@ class Router extends Component {
           <Route path="/" component={NavbarCustom} />
           <Content>
             <Switch>
+              <Redirect exact from="/" to="/single/302/Anders_ANTONSEN_SHI_Yu_Qi_Malasia_Open_2024_F/MALAYSIA%20OPEN%202024&KUALA%20LUMPUR&Finals&2024-01-14&Anders%20ANTONSEN&SHI%20Yuqi" />
               <PrivatePage exact path="/single/:matchId/:matchName/:matchInfo" component={Page.Single} />
-              {/* No match route */}
+              <PrivatePage path="*" render={() => (
+              <Redirect to="/single/302/Anders_ANTONSEN_SHI_Yu_Qi_Malasia_Open_2024_F/MALAYSIA%20OPEN%202024&KUALA%20LUMPUR&Finals&2024-01-14&Anders%20ANTONSEN&SHI%20Yuqi" />
+            )} />
             </Switch>
           </Content>
           <Route path="/" component={Footer} />

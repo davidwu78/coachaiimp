@@ -1,6 +1,5 @@
 import React, { PureComponent } from 'react';
 import styled from 'styled-components';
-import { GoogleLogout } from 'react-google-login';
 import Link from 'Themes/components/Link';
 import { connect } from 'react-redux';
 import axios from 'axios';
@@ -88,32 +87,8 @@ const RoleDropdown = () => (
 class NavbarCustom extends PureComponent {
   render() {
     const { t } = this.props;
-
     return (
       <Navbar>
-        <BrandLink to="/">
-          <Logo>CoachAI</Logo>
-        </BrandLink>
-        <LinksWrapper>
-          {
-            this.props.currentUser.isAnonymous ? (
-              <StyledLink to={`${process.env.REACT_APP_ROOT}/login`}>{t('login')}</StyledLink>
-            ) : (
-              <>
-                <StyledLink to="/visualization">{t('matchList')}</StyledLink>
-                <StyledLink to="/pattern">{t('playersComparison')}</StyledLink>
-                <GoogleLogout
-                  render={(renderProps) => (
-                    <StyledLink to="#" onClick={renderProps.onClick}>{t('logout')}</StyledLink>
-                  )}
-                  clientId={Auth.clientId()}
-                  onLogoutSuccess={googleSignOut}
-                />
-                <RoleDropdown />
-              </>
-            )
-          }
-        </LinksWrapper>
       </Navbar>
     );
   }

@@ -49,7 +49,7 @@
     "analyze": "source-map-explorer 'build/static/js/*.js' --html result.html",
     "lint": "eslint --ext .js src/",
     "lint:css": "stylelint './src/**/*.js'",
-    "start": "HTTPS=true ./node_modules/.bin/react-scripts start",
+    "start": "HTTPS=true DISABLE_ESLINT_PLUGIN=true ./node_modules/.bin/react-scripts start",
     "build": "./node_modules/.bin/react-scripts build",
     "test": "./node_modules/.bin/react-scripts test",
     "eject": "./node_modules/.bin/react-scripts eject"
